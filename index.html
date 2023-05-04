@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Var + Data types</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <h3> Q#1: Create two variables and alert their sum , multiplication , & divide var1 by var2 and see if you get the
+        desired output or not?
+    </h3>
+
+    <h3> Q#2: Create a variable A and assign an integer value to it then increment the variable and assign it to the new
+        variable B.
+
+    </h3>
+
+    <h3> Q#3: Create a variable and assign a string value 'Hello' to it. Take the characters by using a greater then (>)
+        operator to check if the value of the left operand is greater than the right operator. If yes then it returns
+        true else false.
+    </h3>
+
+    <h3> Q#4: What Would be the results of the following statements below.? Result must be in Boolean. <br>
+        <ul>
+            <li>console.log(10 > "5") </li>
+            <li> console.log(2 > true) </li>
+            <li> console.log(1 > false) </li>
+            <li>console.log(1 > "") </li>
+            <li> console.log('' == '0' ) </li>
+            <li> console.log(1 > " ") </li>
+            <li> console.log(1 > null) </li>
+            <li> console.log(10 > "a") </li>
+            <li> console.log(10 > NaN) </li>
+            <li> console.log(10 > undefined) </li>
+            <li> console.log(0 == '' ) </li>
+            <li> console.log(a > 5 || b > 5) </li>
+            <li> console.log(0 == '0') </li>
+        </ul>
+    </h3>
+
+    <h3> Q#4: What would be the output of the following code ? <br>
+        let str="Hello" <br>
+        let num=100; <br>
+        console.log(str || num)
+    </h3>
+</div>
+
+
+    <!-- JAVA SCRIPT -->
+
+    <script>
+        // Q#1
+        var1;
+        var2;
+        var var1 = 16;
+        var var2 = 2;
+        alert(var1 + var2);
+        alert(var1 * var2);
+        alert(var1 / var2);
+
+        // Q#2
+        varA;
+        var varA = 100;
+        varA++;
+        let varB = varA;
+        // console.log(varB);
+
+        // Q#3
+        var str1 = "Hello";
+        var str2 = "HelloWorld";
+        console.log(str1 > str2);
+
+        // Q#4
+        a = 1; b = 6;
+
+        console.log(10 > "5");
+        console.log(2 > true);
+        console.log(1 > false);
+        console.log(1 > "");
+        console.log('' == '0');
+        console.log(1 > " ");
+        console.log(1 > null);
+        console.log(10 > "a");
+        console.log(10 > NaN);
+        console.log(10 > undefined);
+        console.log(0 == '');
+        console.log(a > 5 || b > 5);
+        console.log(0 == '0');
+
+        // Q#5
+        let str = "Hello"
+        let num = 100;
+        console.log(str || num);
+
+    </script>
+</body>
+
+</html>
